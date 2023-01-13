@@ -1,0 +1,23 @@
+.container-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1e1e95;
+    border: 1px solid black;
+    height:  100px;
+    /* color: #FFF; */
+}
+
+.container-header .logo-site {
+    color:orange;
+}
+
+.container-header .navegacao  a {
+    margin-left: 10px;
+    color: #FFF;    
+    
+}
+.container-header .navegacao  a:hover {
+    color: #CCC;
+    transform: scale(1.7)
+}
