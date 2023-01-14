@@ -26,6 +26,12 @@ function Entretenimento(){
             <h1>Entretenimento</h1>
 
             {news.map((news) => {
+                 const data = new Date();
+                 const dia = ('0' + data.getDate()).slice(-2);            
+                 const mes = ('0' + (data.getMonth() + 1)).slice(-2);
+                 const ano = data.getFullYear();
+                 news.publishedAt = `${dia}/${(mes)}/${ano}`
+                 
                 return(
                     <CardNoticia
                     key={news.title}
