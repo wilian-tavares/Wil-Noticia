@@ -1,8 +1,8 @@
 import './esportes.css';
 import { useState, useEffect } from "react";
 import api from "../../Services/Api";
-
 import CardNoticia from '../../components/CardNoticia';
+
 function Esportes(){
 
     const [news, setNews] = useState([]);
@@ -11,7 +11,7 @@ function Esportes(){
         async function NewsEsporte(){
             const response = await api.get('top-headlines', {
                 params: {
-                    apiKey: '9a6895acf9f745a7b23378c1ec48d241',
+                    apiKey: process.env.REACT_APP_APY_KEY,
                     category: 'sports',
                     country: 'br',
                     page: 1

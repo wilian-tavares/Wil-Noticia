@@ -10,7 +10,7 @@ function Entretenimento(){
     async function NewsEntretenimento(){
         const response = await api.get('top-headlines', {
             params: {
-                apiKey: '9a6895acf9f745a7b23378c1ec48d241',
+                apiKey: process.env.REACT_APP_APY_KEY,
                 category: 'entertainment',
                 country: 'br'
             }
@@ -31,7 +31,7 @@ function Entretenimento(){
                  const mes = ('0' + (data.getMonth() + 1)).slice(-2);
                  const ano = data.getFullYear();
                  news.publishedAt = `${dia}/${(mes)}/${ano}`
-                 
+
                 return(
                     <CardNoticia
                     key={news.title}

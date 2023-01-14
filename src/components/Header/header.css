@@ -1,11 +1,16 @@
 .container-header {
+    position: sticky;
+    top: 0;
+    
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #1e1e95;
     border: 1px solid black;
     height:  100px;
-    /* color: #FFF; */
+    width: 100%;
+    
 }
 
 .container-header .logo-site {

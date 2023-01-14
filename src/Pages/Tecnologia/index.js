@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import api from '../../Services/Api';
 import './tecnologia.css';
 import CardNoticia from "../../components/CardNoticia";
-
 function Tecnologia(){
 
     const [news, setNews] = useState([]);
@@ -14,7 +13,7 @@ function Tecnologia(){
         async function NewsTecnologia(){
             const response = await api.get('top-headlines', {
                 params: {
-                    apiKey: '9a6895acf9f745a7b23378c1ec48d241',
+                    apiKey: process.env.REACT_APP_APY_KEY,
                     category: 'technology',
                     country: 'br'
                 }
