@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react';
 import api from '../../Services/Api';
-import './entretenimento.css';
 import CardNoticia from '../../components/CardNoticia';
 
 function Entretenimento(){

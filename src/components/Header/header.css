@@ -1,11 +1,12 @@
 .container-header {
+    padding: 10px;
     position: sticky;
     top: 0;
-    
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
     background-color: #1e1e95;
     border: 1px solid black;
     height:  100px;
@@ -17,12 +18,40 @@
     color:orange;
 }
 
-.container-header .navegacao  a {
+.container-header .navegacao a {
     margin-left: 10px;
     color: #FFF;    
-    
 }
+
 .container-header .navegacao  a:hover {
     color: #CCC;
-    transform: scale(1.7)
+    transform: scale(1.1)
+}
+
+
+/*  RESPONSIVIDADE  */
+
+@media(max-width: 900px) {
+    .container-header {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 700px) {
+    .container-header {
+        height: 150px;        
+    }
+    .container-header .navegacao ul  {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .container-header .navegacao ul a{
+        padding: 5px;
+    }
+}
+
+@media(max-width: 500px) {
+    .container-header {
+    }
 }

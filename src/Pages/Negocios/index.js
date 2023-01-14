@@ -1,13 +1,10 @@
 import api from '../../Services/Api';
-
 import { useEffect, useState } from 'react';
-import './negocios.css';
 import CardNoticia from '../../components/CardNoticia';
+
 function Negocios(){
 
     const [news, SetNews] = useState([]);
-
-   
 
     useEffect(() => {
         async function NewsNegocios(){

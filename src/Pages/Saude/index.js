@@ -1,6 +1,5 @@
 import api from '../../Services/Api';
 import { useState, useEffect } from 'react';
-import './saude.css';
 import CardNoticia from '../../components/CardNoticia';
 
 function Saude(){

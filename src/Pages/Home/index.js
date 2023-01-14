@@ -1,4 +1,3 @@
-import './home.css';
 import api from '../../Services/Api';
 import CardNoticia from '../../components/CardNoticia';
 import { useState, useEffect } from 'react';

@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
 import api from '../../Services/Api';
-import './tecnologia.css';
 import CardNoticia from "../../components/CardNoticia";
+
 function Tecnologia(){
 
-    const [news, setNews] = useState([]);
-
-  
-    
+    const [news, setNews] = useState([]);   
 
     useEffect(() => {
         async function NewsTecnologia(){

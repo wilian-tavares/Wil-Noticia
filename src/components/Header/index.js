@@ -19,14 +19,6 @@ function Header() {
                     <Link to='/saude'>SAÚDE</Link >
                     <Link to='/negocios'>NEGÓCIOS</Link >
                     <Link to='/entretenimento'>ENTRETENIMENTO</Link >
-{/* 
-                    <li>Geral</li>
-                    <li>Tecnologia</li>
-                    <li>Esportes</li>
-                    <li>Ciência</li>
-                    <li>Saúde</li>
-                    <li>Negócios</li>
-                    <li>Entretenimento</li> */}
                 </ul>
             </nav>
         </div>

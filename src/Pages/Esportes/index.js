@@ -1,4 +1,3 @@
-import './esportes.css';
 import { useState, useEffect } from "react";
 import api from "../../Services/Api";
 import CardNoticia from '../../components/CardNoticia';
