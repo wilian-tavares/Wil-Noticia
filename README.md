@@ -2,7 +2,10 @@
 
 ## Olá, Seja Bem Vindo ao site Wil-Noticia, fique a vontade para clocar o repositório
 
+
+
 ### O site está responsivo para dispositivos móveis, foi feito com HTML, CSS3, JAVASCRIPT, REACT-JS.
+
 
 O site faz a busca de noticias da API https://newsapi.org/ está responsivo para dispositivo móveis (Smartphone etc)
 Tecnologias usadas:
@@ -13,7 +16,7 @@ Tecnologias usadas:
     <img align="center" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
     <img align="center" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 </div>
-
+<hr>
 
 1° Necessário se cadastrar no site https://newsapi.org/ e resgatar sua API KEY,
 
@@ -23,14 +26,7 @@ vá no  terminal digite: " git clone https://github.com/wilian-tavares/Wil-Notic
 
 após clonar o projeto vai ser necessário fazer as importações das dependências do projeto.
 
-Dependências Necessárioas: ("react-router-dom, axios)
-
-3° no terminal faça a instalação da seguinte forma
-
-npm install react-router-dom
-
-npm install axios
-
+3° no terminal faça a instalação da seguinte forma "npm install Nome_biblioteca"
 
  4° Após fazer as instalações será necessário criar um arquito (.env) na raiz do projeto para adicionar sua API-KEY, pois ela deve ser secreta e não pode ser compartilhada.
  
